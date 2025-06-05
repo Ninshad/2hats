@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Machine test</title>
+
+  <!-- Google Fonts First -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+
+<header class="pt-3 border-bottom">
+  <div class="container">
+    <div class="row mt-3">
+      <div class="col-12 text-center">
+        <img src="images/logo.png" alt="logo" width="100" />
+      </div>
+    </div>
+
+    <div class="d-flex align-items-center justify-content-between mt-3 mb-3 nav-menu-wrapper">
+      <!-- Left: Search -->
+      <a href="#"><img src="icons/search.svg" alt="Search" width="20" /></a>
+
+      <!-- Right: Icons + Toggle -->
+      <div class="d-flex align-items-center gap-3 ms-auto">
+        <a href="#"><img src="icons/cart.svg" alt="Cart" width="20" /></a>
+        <a href="#"><img src="icons/heart.svg" alt="Wishlist" width="20" /></a>
+        <a href="#"><img src="icons/user.svg" alt="User" width="20" /></a>
+
+        <!-- Hamburger Toggle -->
+        <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-md px-0">
+      <div class="collapse navbar-collapse justify-content-center mt-2" id="mainNavbar">
+        <ul class="navbar-nav mb-2 mb-md-0 text-center">
+          <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">SPACES</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">PRODUCTS & SERVICES</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">SHOWROOMS</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">COMPANY</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">MEDIA</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+
+  </div>
+</header>
+
+<main>
+  <!-- Hero Section -->
+  <section class="hero-section d-flex align-items-center" aria-label="Hero">
+  <div class="container">
+    <div class="hero-textbox text-white text-center text-md-start" >
+      <h1 class="fw-bold mb-3">New Generation Ceramic Tile</h1>
+      <p class="mb-4">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+      </p>
+      <a href="#" class="btn btn-light text-dark px-4">LEARN MORE</a>
+    </div>
+  </div>
+</section>
+
+<!-- Products Section -->
+<section class="products-section py-5" aria-labelledby="products-heading">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-2 position-relative d-inline-block">
+    Products
+        <span class="heading-underline d-block mx-auto mt-2"></span>
+    </h2>
+    <p class="text-muted mb-5 mt-3">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+      Lorem Ipsum has been the industry's standard dummy text.
+    </p>
+
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="product-card position-relative">
+          <img src="images/product1.webp" alt="Bathroom Tiles" class="img-fluid w-100" loading="lazy" />
+          <div class="product-caption">
+            <h5>Bathroom Tiles</h5>
+            <p>Lorem Ipsum is simply dummy text of the printing.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="product-card position-relative">
+          <img src="images/product2.webp" alt="Marble" class="img-fluid w-100" loading="lazy"/>
+          <div class="product-caption">
+            <h5>Marble</h5>
+            <p>Lorem Ipsum is simply dummy text of the printing.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 col-lg-4 col-wrapper">
+        <div class="row">
+            <div class="product-card-last-col position-relative">
+              <img src="images/product3.webp" alt="Outdoor Flooring" class="img-fluid w-100" loading="lazy" />
+              <div class="product-caption">
+                <h5>Outdoor Flooring</h5>
+                <p>Lorem Ipsum is simply dummy text of the printing.</p>
+              </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="product-card-last-col-product position-relative">
+          <img src="images/product4.webp" alt="Kitchen Interior" class="img-fluid w-100" loading="lazy"/>
+          <div class="product-caption">
+            <h5>Kitchen Interior</h5>
+            <p>Lorem Ipsum is simply dummy text of the printing.</p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+
+<section class="projects-section text-center py-5" aria-labelledby="projects-heading">
+  <div class="container">
+    <h2 class="fw-bold mb-2 position-relative d-inline-block">
+      Projects
+      <span class="heading-underline d-block mx-auto mt-2"></span>
+    </h2>
+    <p class="text-muted mb-5 mt-3">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+      Lorem Ipsum has been the industry's standard dummy text.
+    </p>
+
+    <div class="row g-4 justify-content-center mt-3">
+      <div class="col-6 col-md-3">
+        <div class="project-card">
+          <img src="images/project1.webp" class="img-fluid" alt="Kingdom Tower" loading="lazy" >
+          <h5 class="fw-bold mt-3 mb-1">Kingdom Tower</h5>
+          <p class="text-muted small">Marble Flooring</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="project-card">
+          <img src="images/project2.webp" class="img-fluid" alt="Dubai Mall" loading="lazy">
+          <h5 class="fw-bold mt-3 mb-1">Dubai Mall</h5>
+          <p class="text-muted small">Wood Flooring</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="project-card">
+          <img src="images/project3.webp" class="img-fluid" alt="King Road Offices" loading="lazy">
+          <h5 class="fw-bold mt-3 mb-1">King Road Offices</h5>
+          <p class="text-muted small">Outdoor Flooring</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="project-card">
+          <img src="images/project4.webp" class="img-fluid" alt="Beach Tower Alupang" loading="lazy">
+          <h5 class="fw-bold mt-3 mb-1">Beach Tower Alupang</h5>
+          <p class="text-muted small">Wood Flooring</p>
+        </div>
+      </div>
+    </div>
+    <div class="mt-4">
+      <a href="#" class="btn btn-dark px-5 py-2 fw-semibold">VIEW ALL</a>
+    </div>
+  </div>
+</section>
+
+<!-- Responsive Carousal products & projects-->
+
+<section aria-labelledby="products-projects-heading">
+ <div class="container d-md-none py-4">
+  <div class="row">
+    <!-- Products Column -->
+    <div class="col-12 col-sm-6 mb-4">
+      <div class="text-center mb-3">
+        <h2 class="fw-bold mb-2 position-relative d-inline-block">
+          Products
+        <span class="heading-underline d-block mx-auto mt-2"></span>
+    </h2>
+        <div class="underline mx-auto mb-2"></div>
+        <p class="text-muted mb-5 mt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+      </div>
+
+      <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/product1.webp" class="d-block w-100" alt="Bathroom Tiles">
+        <div class="carousel-caption d-block bg-dark text-white p-2 ">
+          <h5 class="mb-1">Bathroom Tiles</h5>
+          <p class="mb-0 small">Lorem Ipsum is simply dummy text of the printing.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/product2.webp" class="d-block w-100" alt="Marble">
+        <div class="carousel-caption d-block bg-dark text-white p-2">
+          <h5 class="mb-1">Marble</h5>
+          <p class="mb-0 small">Lorem Ipsum is simply dummy text of the printing.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/product3.webp" class="d-block w-100" alt="Outdoor Flooring">
+        <div class="carousel-caption d-block bg-dark text-white p-2">
+          <h5 class="mb-1">Outdoor Flooring</h5>
+          <p class="mb-0 small">Lorem Ipsum is simply dummy text of the printing.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/product4.webp" class="d-block w-100" alt="Kitchen Interior">
+        <div class="carousel-caption d-block bg-dark text-white p-2">
+          <h5 class="mb-1">Kitchen Interior</h5>
+          <p class="mb-0 small">Lorem Ipsum is simply dummy text of the printing.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+    </div>
+
+    <!-- Projects Column -->
+    <div class="col-12 col-sm-6 mb-4">
+      <div class="text-center mb-3 mt-sm-0 mt-5">
+        <h2 class="fw-bold mb-2 position-relative d-inline-block">
+          Projects
+        <span class="heading-underline d-block mx-auto mt-2"></span>
+    </h2>
+        <div class="underline mx-auto mb-2"></div>
+        <p class="text-muted mb-5 mt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+      </div>
+
+      <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/project1.webp" class="d-block w-100" alt="Kingdom Tower">
+        <div class="text-center mt-2">
+          <h5 class="mb-1">Kingdom Tower</h5>
+          <p class="small text-muted">Marble Flooring</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/project2.webp" class="d-block w-100" alt="Dubai Mall">
+        <div class="text-center mt-2">
+          <h5 class="mb-1">Dubai Mall</h5>
+          <p class="small text-muted">Wood Flooring</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/project3.webp" class="d-block w-100" alt="King Road Offices">
+        <div class="text-center mt-2">
+          <h5 class="mb-1">King Road Offices</h5>
+          <p class="small text-muted">Outdoor Flooring</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/project4.webp" class="d-block w-100" alt="Beach Tower Alupang">
+        <div class="text-center mt-2">
+          <h5 class="mb-1">Beach Tower Alupang</h5>
+          <p class="small text-muted">Wood Flooring</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+
+    <div class="text-center">
+      <button class="btn btn-dark btn-sm">VIEW ALL</button>
+    </div>
+
+  </div>
+    </div>
+  </div>
+</div>
+</section>
+
+</main>
+
+<!-- Footer Section -->
+
+<footer class="footer-section text-white pt-5 pb-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-3 mb-4">
+        <div class="mb-4">
+            <img src="./images/footerLogo.png" alt="logo" width="100">
+        </div>
+        <div class="social-icons d-flex gap-3">
+          <a href="#" class="text-white" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-white" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-white" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 mb-4">
+        <h6 class="fw-bold mb-3">Products</h6>
+        <nav aria-label="Products Navigation">
+        <ul class="list-unstyled small list">
+          <li>Sand Stone</li>
+          <li>Stone</li>
+          <li>Cement</li>
+          <li>Soft Stone</li>
+        </ul>
+        </nav> 
+      </div>
+
+      <div class="col-6 col-md-3 mb-4">
+        <h6 class="fw-bold mb-3">Services</h6>
+        <nav aria-label="Services Navigation">
+        <ul class="list-unstyled small list">
+          <li>Measurement Service</li>
+          <li>Product Advice</li>
+          <li>Interior Design</li>
+        </ul>
+        </nav> 
+      </div>
+
+      <div class="col-12 col-md-3 mb-4">
+        <h6 class="fw-bold mb-3">Contact Information</h6>
+        <p class="small mb-0">
+          3181 Al Imam Saud Ibn Abdul Aziz Branch Rd,<br>
+          An Nuzhah, Riyadh 12474,<br>
+          Saudi Arabia
+        </p>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
